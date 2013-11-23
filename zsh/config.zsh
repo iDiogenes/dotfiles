@@ -6,6 +6,7 @@ fi
 
 export LSCOLORS="exfxcxdxbxegedabagacad"
 export CLICOLOR=true
+export SSL_CERT_FILE=~/.rbenv/certs/cert.pem
 
 fpath=($ZSH/zsh/functions $fpath)
 
