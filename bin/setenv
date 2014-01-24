@@ -1,0 +1,7 @@
+#!/bin/zsh
+
+while read i 
+do
+export $i
+echo "Set env $i"
+done < $1
