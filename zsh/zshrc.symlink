@@ -22,3 +22,5 @@ compinit
 for config_file ($ZSH/**/completion.sh) source $config_file
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+### Added for packer
+export PATH="/usr/local/packer:$PATH"
